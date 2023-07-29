@@ -24,6 +24,23 @@
 
         <!-- Main Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <style>
+            .card {
+                /* Add shadows to create the "card" effect */
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+            }
+
+                /* On mouse-over, add a deeper shadow */
+                .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+
+                /* Add some padding inside the card container */
+                .container {
+                padding: 2px 16px;
+            }
+        </style>
     </head>
 
     <body>
@@ -41,7 +58,7 @@
                         <li><a href="about.html">About</a></li>
                         <li class="menu-active"><a href="service.html">Services</a></li>
                         <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="price.html">Price</a></li>
+                        <!-- <li><a href="price.html">Price</a></li> -->
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
@@ -68,68 +85,86 @@
         <section id="services" class="services">
             <div class="container">
                 <header class="section-header">
-                    <h3>Services</h3>
-                    <p>
+                    <h3>Our Services</h3>
+                    <!-- <p>
                         Integer sollicitudin sed nulla non consequat. Nullam vitae erat quis leo accumsan ullamcorper. Suspendisse leo purus, pellentesque posuere.
-                    </p>
+                    </p> -->
                 </header>
                 <div class="row">
-                    <div class="col-sm-6 col-md-4 col-lg-3">
+                    
+                    <div class="col-sm-6 col-md-4 col-lg-4">
                         <div class="single-service">
-                            <i class="ion-ios-desktop"></i>
-                            <h4><a href="">Web Design</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                            <div class="card">
+                                <img src="img/erp.webp" alt="Avatar" style="width:250px; height: 250px; margin: auto;">
+                                <div class="container">
+                                    <h4><b>Enterprise Resource Planning System</b></h4>
+                                    <p>Enterprise resource planning (ERP) refers to a type of software that organizations use to manage day-to-day business activities such as accounting, procurement, project management, risk management and compliance, and supply chain operations.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3">
+
+                    <div class="col-sm-6 col-md-4 col-lg-4">
                         <div class="single-service">
-                            <i class="ion-ios-laptop"></i>
-                            <h4><a href="">Web Development</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                            <div class="card">
+                                <img src="img/lms.avif" alt="Avatar" style="width:250px; height: 250px; margin: auto;">
+                                <div class="container">
+                                    <h4><b>Learning Management System</b></h4>
+                                    <p>A Learning Management System (LMS) is a software platform designed to facilitate the creation, delivery, and management of educational and training content. LMS is commonly used in educational institutions, corporate settings, and various organizations to deliver online courses.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3">
+
+                    <div class="col-sm-6 col-md-6 col-lg-4">
                         <div class="single-service">
-                            <i class="ion-ios-tablet-portrait"></i>
-                            <h4><a href="">App Design</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                            <div class="card">
+                                <img src="img/ecommerce.avif" alt="Avatar" style="width:250px; height: 250px; margin: auto;">
+                                <div class="container">
+                                    <h4><b>E-commerce Solutions</b></h4>
+                                    <p>E-commerce solutions refer to a range of software and services that enable businesses to conduct online transactions, sell products or services, and manage various aspects of their online store. These solutions are designed to facilitate and optimize the entire e-commerce process.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3">
+
+                    <div class="col-sm-6 col-md-4 col-lg-4">
                         <div class="single-service">
-                            <i class="ion-ios-phone-portrait"></i>
-                            <h4><a href="">App Development</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                            <div class="card">
+                                <img src="img/web-app.avif" alt="Avatar" style="width:250px; height: 250px; margin: auto;">
+                                <div class="container">
+                                    <h4><b>Web-Application Development</b></h4>
+                                    <p>we specialize in crafting bespoke and cutting-edge web applications that elevate your business to new heights. With a talented team of experienced developers, designers, and digital strategists, we are committed to delivering exceptional web solutions tailored to your unique needs and objectives.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3">
+
+                    <div class="col-sm-6 col-md-4 col-lg-4">
                         <div class="single-service">
-                            <i class="ion-ios-desktop"></i>
-                            <h4><a href="">Web Design</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                            <div class="card">
+                                <img src="img/mobile-app.avif" alt="Avatar" style="width:250px; height: 250px; margin: auto;">
+                                <div class="container">
+                                    <h4><b>Mobile-Application Development</b></h4>
+                                    <p>we are passionate about creating innovative and user-friendly mobile applications that take your business to the palms of your customers' hands. With a highly skilled team of mobile app developers, UI/UX designers, and quality assurance experts, we are dedicated to delivering top-notch mobile solutions.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3">
+
+                    <div class="col-sm-6 col-md-4 col-lg-4">
                         <div class="single-service">
-                            <i class="ion-ios-laptop"></i>
-                            <h4><a href="">Web Development</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                            <div class="card">
+                                <img src="img/developer.avif" alt="Avatar" style="width:250px; height: 250px; margin: auto;">
+                                <div class="container">
+                                    <h4><b>Developer Outsourcing</b></h4>
+                                    <p> we specialize in providing top-notch Developer Outsourcing solutions to businesses worldwide. With a team of highly skilled and experienced software developers, designers, and project managers, we offer a comprehensive suite of outsourcing services tailored to meet your unique design and development needs.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3">
-                        <div class="single-service">
-                            <i class="ion-ios-tablet-portrait"></i>
-                            <h4><a href="">App Design</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3">
-                        <div class="single-service">
-                            <i class="ion-ios-phone-portrait"></i>
-                            <h4><a href="">App Development</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
-                        </div>
-                    </div>
+
+
                 </div>
             </div>
         </section>
